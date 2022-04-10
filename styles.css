@@ -1,0 +1,173 @@
+/* * {
+    border: 2px solid red !important;
+} */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+* {
+    box-sizing: border-box;
+    
+}
+
+
+
+/* Left Side */
+body {
+    height: 100vh;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+.left-side {
+    /* width: 750px; */
+    background-image: url(images/halie-west-25xggax4bSA-unsplash.jpg);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* .left-side > img {
+    height: 100vh;
+} */
+
+.banner {
+    /* background-color: grey; */
+    background: rgba(0,0,0,.5);
+    opacity: 100%;
+    width: 100%;
+    bottom: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35%;
+}
+
+.banner img {
+    height: 150px;
+    margin: 16px;
+}
+
+@font-face {
+    font-family: Norse-Bold;
+    src: url(fonts/Norse-Bold.otf);
+}
+
+.banner h1{
+    font-size: 100px;
+    font-family: "Norse-Bold";
+    color: white;
+}
+
+.left-side p {
+    color: white;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+a{
+    color: white;
+}
+
+
+/* Right Side */
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: rgb(255, 255, 250);
+    width: 60vw;
+}
+
+.right-side > p {
+    font-size: 30px;
+    width: 950px;
+    margin-bottom: 50px;
+    padding-left: 100px;
+}
+
+.middle {
+    height: 350px;
+    box-shadow: 0px 1px 10px black;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 10px;
+    padding-left: 100px;
+
+}
+
+
+.inputs {
+    display: flex;
+    gap: 80px;
+}
+
+input {
+    height: 40px;
+    width: 400px;
+    border: 1px solid rgb(226, 226, 226);
+    border-radius: 4px;
+    font-size: 20px;
+
+}
+
+input:focus {
+    outline: none;
+    border-color: blue;
+    box-shadow: 1px 1px 5px black;
+}
+
+label {
+    margin-top: 40px;
+    text-transform: uppercase;
+}
+
+.form-left, .form-right {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    /* margin-left: 80px; */
+}
+
+.middle  h1 {
+    font-size: 30px;
+}
+
+em {
+    font-style: italic;
+}
+
+
+.create-account {
+    padding-left: 100px;
+    font-size: 20px;
+}
+
+.create-account a {
+    color: #596D48;
+    text-decoration: none;
+}
+
+
+button {
+    font-size: 25px;
+    padding: 16px 64px;
+    border-radius: 8px;
+    background-color: #596D48;
+    color: white;
+    margin: 50px 0 ;
+}
+
+button:active {
+    color: black;
+    background-color: white;
+}
+
+
